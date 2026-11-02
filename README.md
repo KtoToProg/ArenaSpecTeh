@@ -18,29 +18,29 @@ Bilingual Telegram bot for renting and selling special equipment. Integrates wit
 <a id="demo"></a>
 ## 🎬 Demo
 
-| Language Selection | Welcome & Menu | Categories | Equipment Type |
+| Start | Welcome & Menu | Categories | Equipment Type |
 |:---:|:---:|:---:|:---:|
-| ![Start](images/screenshot1.png) | ![Menu](images/Screenshot1ENG.png) | ![Categories](images/Screenshot2ENG.png) | ![Equipment Type](images/Screenshot3ENG.png) |
+| !(images/screenshot1.png) | ![Menu](images/Screenshot1ENG.png) | ![Categories](images/Screenshot2ENG.png) | ![Equipment Type](images/Screenshot3ENG.png) |
 
-| Listing Card | Latest Listings | Search Results | Help Menu |
+| Listing Card | Card | Latest & Search | Filter Menu |
 |:---:|:---:|:---:|:---:|
 | ![Listing List](images/Screenshot4ENG.png) | ![Card](images/Screenshot5ENG.png) | ![Latest & Search](images/Screenshot6ENG.png) | ![Filter Menu](images/Screenshot7ENG.png) |
 
-| Filter Menu | Filter: Region Input | Filter: Results | Add Listing: Name/Brand |
+| Filter Region | Filter Results | Add: Rent/Sale (New card) | Add: Equipment Type |
 |:---:|:---:|:---:|:---:|
 | ![Filter Region](images/Screenshot8ENG.png) | ![Filter Results](images/Screenshot9ENG.png) | ![Add: Rent/Sale (New card)](images/Screenshot10ENG.png) | ![Add: Equipment Type](images/Screenshot11ENG.png) |
 
-| Add: Year & Condition | Add: Specs & Docs | Add: Region & Delivery | Add: Price & Photo |
+| Add: Name | Add: Brand, Year & Condition | Add: Specs & Docs | Add: Region, Delivery & Price |
 |:---:|:---:|:---:|:---:|
 | ![Add: Name](images/Screenshot12ENG.png) | ![Add: Brand, Year & Condition](images/Screenshot13ENG.png) | ![Add: Specs & Docs](images/Screenshot14ENG.png) | ![Add: Region, Delivery & Price](images/Screenshot15ENG.png) |
 
-| Check Data | Success Message | Google Sheets (A-I) | |
+| Add: Upload Photo & Confirmation | Add: Success & Latest(1) | Latest(2) & Help | |
 |:---:|:---:|:---:|:---:|
 | ![Add: Upload Photo & Confirmation](images/Screenshot16ENG.png) | ![Add: Success & Latest(1) ](images/Screenshot17ENG.png) | ![Latest(2) & Help](images/Screenshot18ENG.png) | |
 
-| Google Sheets (J-N) | New Item | | |
+| Sheet1 | Sheet2 | | |
 |:---:|:---:|:---:|:---:|
-| ![Sheet2](images/screenshot20.png) | ![New Image](images/new_image.png) | | |
+| ![Sheet1](images/screenshot20.png) | ![New Image](images/new_image.png) | | |
 <a id="features"></a>
 ## ✨ Features
 
