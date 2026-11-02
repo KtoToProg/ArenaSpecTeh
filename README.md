@@ -31,12 +31,16 @@ Bilingual Telegram bot for renting and selling special equipment. Integrates wit
 | ![Filter Region](images/Screenshot8ENG.png) | ![Filter Results](images/Screenshot9ENG.png) | ![Add: Rent/Sale (New card)](images/Screenshot10ENG.png) | ![Add: Equipment Type](images/Screenshot11ENG.png) |
 
 | Add: Year & Condition | Add: Specs & Docs | Add: Region & Delivery | Add: Price & Photo |
-|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|
 | ![Add: Name](images/Screenshot12ENG.png) | ![Add: Brand, Year & Condition](images/Screenshot13ENG.png) | ![Add: Specs & Docs](images/Screenshot14ENG.png) | ![Add: Region, Delivery & Price](images/Screenshot15ENG.png) |
 
-| Check Data | Success Message | Google Sheets (A-I) | Google Sheets (J-N) |
-|:---:|:---:|
-| ![Add: Upload Photo & Confirmation](images/Screenshot16ENG.png) | ![Add: Success & Latest(1) ](images/Screenshot17ENG.png) | ![Latest(2) & Help](images/Screenshot18ENG.png) | ![Sheet2](images/screenshot20.png) |
+| Check Data | Success Message | Google Sheets (A-I) | |
+|:---:|:---:|:---:|:---:|
+| ![Add: Upload Photo & Confirmation](images/Screenshot16ENG.png) | ![Add: Success & Latest(1) ](images/Screenshot17ENG.png) | ![Latest(2) & Help](images/Screenshot18ENG.png) | |
+
+| Google Sheets (J-N) | New Item | | |
+|:---:|:---:|:---:|:---:|
+| ![Sheet2](images/screenshot20.png) | ![New Image](images/new_image.png) | | |
 <a id="features"></a>
 ## ✨ Features
 
