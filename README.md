@@ -54,7 +54,6 @@ Bilingual Telegram bot for renting and selling special equipment. Integrates wit
 
 <a id="tech-stack"></a>
 ## 🛠️ Tech Stack
-<div align="center">
 
 | Component | Purpose |
 |-----------|---------|
@@ -65,8 +64,6 @@ Bilingual Telegram bot for renting and selling special equipment. Integrates wit
 | python-dotenv | Load variables from `.env` |
 | Flask | Lightweight web server for health checks |
 | Cloudflare Workers | Telegram API proxy |
-
-</div>
 
 <a id="installation"></a>
 ## 🚀 Installation
