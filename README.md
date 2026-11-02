@@ -20,7 +20,7 @@ Bilingual Telegram bot for renting and selling special equipment. Integrates wit
 
 | Start | Welcome & Menu | Categories | Equipment Type |
 |:---:|:---:|:---:|:---:|
-| !(images/screenshot1.png) | ![Menu](images/Screenshot1ENG.png) | ![Categories](images/Screenshot2ENG.png) | ![Equipment Type](images/Screenshot3ENG.png) |
+| ![](images/screenshot1.png) | ![Menu](images/Screenshot1ENG.png) | ![Categories](images/Screenshot2ENG.png) | ![Equipment Type](images/Screenshot3ENG.png) |
 
 | Listing Card | Card | Latest & Search | Filter Menu |
 |:---:|:---:|:---:|:---:|
