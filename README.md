@@ -53,9 +53,8 @@ Bilingual Telegram bot for renting and selling special equipment. Integrates wit
 - **Cloudflare Worker Proxy** — Stable access to the Telegram API bypassing regional restrictions without a local SOCKS proxy.
 
 <a id="tech-stack"></a>
-<div align="center">
-
 ## 🛠️ Tech Stack
+<div align="center">
 
 | Component | Purpose |
 |-----------|---------|
