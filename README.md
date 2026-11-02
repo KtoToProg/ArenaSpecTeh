@@ -34,12 +34,12 @@ Bilingual Telegram bot for renting and selling special equipment. Integrates wit
 |:---:|:---:|:---:|:---:|
 | ![Add: Name](images/Screenshot12ENG.png) | ![Add: Brand, Year & Condition](images/Screenshot13ENG.png) | ![Add: Specs & Docs](images/Screenshot14ENG.png) | ![Add: Region, Delivery & Price](images/Screenshot15ENG.png) |
 
-| Add: Upload Photo & Confirmation | Add: Success & Latest(1) | Latest(2) & Help | |
-|:---:|:---:|:---:|:---:|
+| Add: Upload Photo & Confirmation | Add: Success & Latest(1) | Latest(2) & Help |
+|:---:|:---:|:---:|
 | ![Add: Upload Photo & Confirmation](images/Screenshot16ENG.png) | ![Add: Success & Latest(1) ](images/Screenshot17ENG.png) | ![Latest(2) & Help](images/Screenshot18ENG.png) | |
 
-| Sheet1 | Sheet2 | | |
-|:---:|:---:|:---:|:---:|
+| Sheet1 | Sheet2 | 
+|:---:|:---:|
 | ![Sheet1](images/screenshot20.png) | ![New Image](images/new_image.png) | | |
 <a id="features"></a>
 ## ✨ Features
