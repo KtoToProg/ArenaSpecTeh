@@ -201,21 +201,29 @@ MIT — see [LICENSE](LICENSE).
 <a id="демо"></a>
 ## 🎬 Демо
 
-| Выбор языка | Главное меню и Категории | Карточка объявления |
-|:---:|:---:|:---:|
-| ![Start](images/screenshot2.png) | ![Menu](images/screenshot1.png) | ![Card](images/screenshot3.png) |
+| Старт | Приветствие и Меню | Категории | Тип техники |
+|:---:|:---:|:---:|:---:|
+| ![Старт](images/screenshot1.png) | ![Меню](images/Screenshot1ENG.png) | ![Категории](images/Screenshot2ENG.png) | ![Тип техники](images/Screenshot3ENG.png) |
 
-| Свежие объявления | Результаты поиска | Интерактивный фильтр |
-|:---:|:---:|:---:|
-| ![Latest](images/screenshot4.png) | ![Search](images/screenshot5.png) | ![Filter](images/screenshot6.png) |
+| Список объявлений | Карточка | Последние и Поиск | Меню фильтра |
+|:---:|:---:|:---:|:---:|
+| ![Список объявлений](images/Screenshot4ENG.png) | ![Карточка](images/Screenshot5ENG.png) | ![Последние и Поиск](images/Screenshot6ENG.png) | ![Меню фильтра](images/Screenshot7ENG.png) |
 
-| Добавление (Шаг 1) | Добавление (Шаг 2) | Подтверждение |
-|:---:|:---:|:---:|
-| ![Add1](images/screenshot7.png) | ![Add2](images/screenshot8.png) | ![Confirm](images/screenshot9.png) |
+| Регион фильтра | Результаты фильтра | Добавить: Аренда/Продажа (Новая карточка) | Добавить: Тип техники |
+|:---:|:---:|:---:|:---:|
+| ![Регион фильтра](images/Screenshot8ENG.png) | ![Результаты фильтра](images/Screenshot9ENG.png) | ![Добавить: Аренда/Продажа (Новая карточка)](images/Screenshot10ENG.png) | ![Добавить: Тип техники](images/Screenshot11ENG.png) |
 
-| Гугл Таблица (A-I) | Гугл Таблица (J-N) |
+| Добавить: Название | Добавить: Марка, Год и Состояние | Добавить: Хар-ки и Документы | Добавить: Регион, Доставка и Цена |
+|:---:|:---:|:---:|:---:|
+| ![Добавить: Название](images/Screenshot12ENG.png) | ![Добавить: Марка, Год и Состояние](images/Screenshot13ENG.png) | ![Добавить: Хар-ки и Документы](images/Screenshot14ENG.png) | ![Добавить: Регион, Доставка и Цена](images/Screenshot15ENG.png) |
+
+| Добавить: Загрузка фото и Подтверждение | Добавить: Успех и Последние(1) | Последние(2) и Помощь |
+|:---:|:---:|:---:|
+| ![Добавить: Загрузка фото и Подтверждение](images/Screenshot16ENG.png) | ![Добавить: Успех и Последние(1) ](images/Screenshot17ENG.png) | ![Последние(2) и Помощь](images/Screenshot18ENG.png) |
+
+| Лист1 | Лист2 | 
 |:---:|:---:|
-| ![Sheets Left](images/screenshot10.png) | ![Sheets Right](images/screenshot11.png) |
+| ![Лист1](images/Screenshot19ENG.png) | ![Лист2](images/Screenshot20ENG.png) |
 
 <a id="возможности"></a>
 ## ✨ Возможности
