@@ -4,6 +4,10 @@
 
 Bilingual Telegram bot for renting and selling special equipment. Integrates with Google Sheets as a database, features real-time dynamic translation for international users, and uses a Cloudflare Worker as a stable proxy for the Telegram API.
 
+👉 **[Try the bot on Telegram](https://t.me/ArenaSpecTeh_bot)**
+
+> ⚠️ **Note:** This is an educational/test project. The bot might not be online 24/7, as it may run on a local machine or a free tier server. If it doesn't respond right away, please refer to the screenshots below.
+
 ## 📋 Table of Contents
 
 - [Demo](#demo)
@@ -186,6 +190,10 @@ MIT — see [LICENSE](LICENSE).
 # 🚜 Telegram-бот «АренаСпецТех.РФ»
 
 Двуязычный Telegram-бот для аренды и продажи спецтехники. Использует Google Таблицы в качестве базы данных, поддерживает динамический перевод в реальном времени для иностранных пользователей и использует Cloudflare Worker как стабильный прокси для Telegram API.
+
+👉 **[Попробовать бота в Telegram](https://t.me/ArenaSpecTeh_bot)**
+
+> ⚠️ **Примечание:** Это учебный/тестовый проект. Бот может быть доступен не круглосуточно, так как запускается локально или на бесплатном сервере. Если он не отвечает, пожалуйста, ориентируйтесь на скриншоты ниже.
 
 ## 📋 Содержание
 
