@@ -1,4 +1,4 @@
-# 🚜 ArenaSpetsTeh.RF Telegram Bot
+# ArenaSpetsTeh.RF Telegram Bot
 
 > 🌐 English version below — Русская версия ниже
 
@@ -8,7 +8,7 @@ Bilingual Telegram bot for renting and selling special equipment. Integrates wit
 
 > ⚠️ **Note:** This is an educational/test project. The bot might not be online 24/7, as it may run on a local machine or a free tier server. If it doesn't respond right away, please refer to the screenshots below.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Demo](#demo)
 - [Features](#features)
@@ -46,7 +46,7 @@ Bilingual Telegram bot for renting and selling special equipment. Integrates wit
 |:---:|:---:|
 | ![Sheet1](images/Screenshot19ENG.png) | ![Sheet2](images/Screenshot20ENG.png) |
 <a id="features"></a>
-## ✨ Features
+## Features
 
 - **Bilingual interface (RU/EN)** — switch language at any time via `/lang`. The bot asks for language preference on the very first `/start`.
 - **Dynamic Content Translation** — Data in Google Sheets can be stored in Russian or English. The bot translates listing titles, specs, and regions on the fly using an internal Google Translate endpoint.
@@ -57,7 +57,7 @@ Bilingual Telegram bot for renting and selling special equipment. Integrates wit
 - **Cloudflare Worker Proxy** — Stable access to the Telegram API bypassing regional restrictions without a local SOCKS proxy.
 
 <a id="tech-stack"></a>
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Purpose |
 |-----------|---------|
@@ -70,7 +70,7 @@ Bilingual Telegram bot for renting and selling special equipment. Integrates wit
 | Cloudflare Workers | Telegram API proxy |
 
 <a id="installation"></a>
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the repository
 
@@ -128,14 +128,14 @@ python main.py
 Expected output:
 
 ```text
-🌐 Using Cloudflare Worker: https://your-worker.workers.dev
-🔗 API URL: https://your-worker.workers.dev/bot{0}/{1}
-✅ Connected to Google Sheets
+Using Cloudflare Worker: https://your-worker.workers.dev
+API URL: https://your-worker.workers.dev/bot{0}/{1}
+Connected to Google Sheets
 Bot is running. Waiting for updates...
 ```
 
 <a id="project-structure"></a>
-## 📁 Project Structure
+## Project Structure
 
 ```text
 arena-spetsteh-bot/
@@ -151,7 +151,7 @@ arena-spetsteh-bot/
 *(Note: `.env`, `arena_creds.json`, and `advertisements_backup.json` are omitted in the repository because they are ignored by Git).*
 
 <a id="how-it-works"></a>
-## ⚙️ How It Works
+## How It Works
 
 ### Dynamic Translation & Caching
 
@@ -181,13 +181,13 @@ The bot is designed to accept new listings even if Google Sheets temporarily fai
 **4. Auto-restart:** The main polling loop is wrapped in `try/except` with a 5-second delay before restarting. Any unhandled exception will not kill the process.
 
 <a id="license"></a>
-## 📄 License
+## License
 
 MIT — see [LICENSE](LICENSE).
 
 ---
 
-# 🚜 Telegram-бот «АренаСпецТех.РФ»
+# Telegram-бот «АренаСпецТех.РФ»
 
 Двуязычный Telegram-бот для аренды и продажи спецтехники. Использует Google Таблицы в качестве базы данных, поддерживает динамический перевод в реальном времени для иностранных пользователей и использует Cloudflare Worker как стабильный прокси для Telegram API.
 
@@ -195,7 +195,7 @@ MIT — see [LICENSE](LICENSE).
 
 > ⚠️ **Примечание:** Это учебный/тестовый проект. Бот может быть доступен не круглосуточно, так как запускается локально или на бесплатном сервере. Если он не отвечает, пожалуйста, ориентируйтесь на скриншоты ниже.
 
-## 📋 Содержание
+## Содержание
 
 - [Демо](#демо)
 - [Возможности](#возможности)
@@ -234,7 +234,7 @@ MIT — see [LICENSE](LICENSE).
 | ![Лист1](images/Screenshot19ENG.png) | ![Лист2](images/Screenshot20ENG.png) |
 
 <a id="возможности"></a>
-## ✨ Возможности
+## Возможности
 
 - **Двуязычный интерфейс (RU/EN)** — переключение языка в любой момент через `/lang`. При первом `/start` бот просит выбрать язык.
 - **Динамический перевод контента** — Данные в Google Таблицах могут храниться на русском или английском. Бот переводит названия, характеристики и регионы на лету с помощью внутреннего эндпоинта Google Translate.
@@ -245,7 +245,7 @@ MIT — see [LICENSE](LICENSE).
 - **Cloudflare Worker как прокси** — Стабильный доступ к Telegram API в обход региональных блокировок без использования локального SOCKS-прокси.
 
 <a id="технологии"></a>
-## 🛠️ Технологии
+## Технологии
 
 | Компонент | Назначение |
 |-----------|-----------|
@@ -258,7 +258,7 @@ MIT — see [LICENSE](LICENSE).
 | Cloudflare Workers | Прокси для Telegram API |
 
 <a id="установка"></a>
-## 🚀 Установка
+## Установка
 
 ### 1. Клонировать репозиторий
 
@@ -316,14 +316,14 @@ python main.py
 Ожидаемый вывод:
 
 ```text
-🌐 Используем Cloudflare Worker: https://your-worker.workers.dev
-🔗 API URL: https://your-worker.workers.dev/bot{0}/{1}
-✅ Подключение к Google Sheets успешно
+Используем Cloudflare Worker: https://your-worker.workers.dev
+API URL: https://your-worker.workers.dev/bot{0}/{1}
+Подключение к Google Sheets успешно
 Бот запущен. Ожидание обновлений...
 ```
 
 <a id="структура-проекта"></a>
-## 📁 Структура проекта
+## Структура проекта
 
 ```text
 arena-spetsteh-bot/
@@ -339,7 +339,7 @@ arena-spetsteh-bot/
 *(Примечание: `.env`, `arena_creds.json` и `advertisements_backup.json` отсутствуют в репозитории, так как добавлены в `.gitignore`).*
 
 <a id="как-это-работает"></a>
-## ⚙️ Как это работает
+## Как это работает
 
 ### Динамический перевод и кэширование
 
