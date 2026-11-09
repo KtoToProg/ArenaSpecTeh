@@ -48,26 +48,23 @@ Bilingual Telegram bot for renting and selling special equipment. Integrates wit
 <a id="features"></a>
 ## Features
 
-- **Bilingual interface (RU/EN)** — switch language at any time via `/lang`. The bot asks for language preference on the very first `/start`.
-- **Dynamic Content Translation** — Data in Google Sheets can be stored in Russian or English. The bot translates listing titles, specs, and regions on the fly using an internal Google Translate endpoint.
-- **Index-Based Google Sheets Integration** — The bot reads data by column indices (A, B, C...). You can rename the column headers to anything (or delete them) without breaking the bot.
-- **Smart Search & Filter** — The search and filter algorithms check both the original query and its translated version. Searching for "USA" will find listings with "США" and vice versa.
-- **Step-by-Step Wizard** — A user-friendly `/new` command to add new listings directly from Telegram with strict input validation.
-- **Fault Tolerance** — Multi-layer retry, local backup for failed Google Sheets writes, and automatic recovery on startup.
-- **Cloudflare Worker Proxy** — Stable access to the Telegram API bypassing regional restrictions without a local SOCKS proxy.
+* **Bilingual UI (RU/EN)** — Language selection on `/start` and on-the-fly switching via `/lang`.
+* **Dynamic Content Translation** — Automated translation of listing titles, specs, and regions from Google Sheets via Google Translate API with in-memory caching.
+* **Index-Based Sheets Integration** — Reads and writes data using strict column indices (A, B, C...) instead of header names, preventing crashes if columns are renamed.
+* **Cross-Language Search** — Search and filter queries automatically validate both original and translated terms (e.g., searching "USA" returns listings marked as "США").
+* **Listing Creation Wizard** — Step-by-step `/new` command workflow with input validation for adding new listings via Telegram.
+* **Fault Tolerance** — Includes a 3-retry mechanism with 5-second delays for Google Sheets operations, local JSON backup for failed writes, and automatic database sync on startup.
+* **Cloudflare Worker Proxy** — Routes requests to `api.telegram.org` through a reverse proxy to bypass regional network restrictions.
 
 <a id="tech-stack"></a>
 ## Tech Stack
 
-| Component | Purpose |
-|-----------|---------|
-| Python 3.10+ | Development language |
-| pyTelegramBotAPI (telebot) | Telegram Bot API wrapper |
-| gspread + oauth2client | Google Sheets integration |
-| requests | Dynamic translation API calls |
-| python-dotenv | Load variables from `.env` |
-| Flask | Lightweight web server for health checks |
-| Cloudflare Workers | Telegram API proxy |
+* **Language & Web:** Python 3.10+, Flask (health checks)
+* **Telegram API:** pyTelegramBotAPI (telebot)
+* **Google Sheets Integration:** gspread, oauth2client
+* **HTTP & Translation:** requests (Google Translate API)
+* **Infrastructure:** Cloudflare Workers (API proxy)
+* **Environment:** python-dotenv
 
 <a id="installation"></a>
 ## Installation
@@ -236,26 +233,23 @@ MIT — see [LICENSE](LICENSE).
 <a id="возможности"></a>
 ## Возможности
 
-- **Двуязычный интерфейс (RU/EN)** — переключение языка в любой момент через `/lang`. При первом `/start` бот просит выбрать язык.
-- **Динамический перевод контента** — Данные в Google Таблицах могут храниться на русском или английском. Бот переводит названия, характеристики и регионы на лету с помощью внутреннего эндпоинта Google Translate.
-- **Интеграция с Google Sheets по индексам** — Бот считывает данные по индексам колонок (A, B, C...). Вы можете переименовать шапку таблицы во что угодно (или удалить её), и бот продолжит работать.
-- **Умный поиск и фильтр** — Алгоритмы поиска и фильтрации проверяют как оригинальный запрос, так и его перевод. Поиск по "USA" найдет объявления с "США" и наоборот.
-- **Пошаговый мастер** — Удобная команда `/new` для добавления объявлений прямо из Telegram со строгой валидацией ввода.
-- **Отказоустойчивость** — Многослойная система повторов, локальный резервный файл при сбоях записи в Google Sheets и автовосстановление при запуске.
-- **Cloudflare Worker как прокси** — Стабильный доступ к Telegram API в обход региональных блокировок без использования локального SOCKS-прокси.
+* **Двуязычный интерфейс (RU/EN)** — Выбор языка при первом старте и переключение в любой момент через `/lang`.
+* **Динамический перевод контента** — Автоматический перевод названий, характеристик и регионов из Google Таблиц через API Google Переводчика с кэшированием в памяти.
+* **Чтение таблиц по индексам** — Привязка к индексам колонок (A, B, C...) вместо названий заголовков, что защищает бота от поломок при изменении шапки таблицы.
+* **Мультиязычный поиск** — Алгоритмы фильтрации проверяют и оригинальный текст, и его перевод (например, запрос «USA» находит объявления со словом «США»).
+* **Мастер создания объявлений** — Пошаговый сценарий команды `/new` со встроенной валидацией вводимых данных перед отправкой в базу.
+* **Отказоустойчивость** — 3 повторные попытки при сбоях сети, локальный бэкап объявлений в JSON-файл при полной потере связи и автовыгрузка данных в Google Sheets при перезапуске.
+* **Прокси через Cloudflare** — Перенаправление запросов к `api.telegram.org` через обратный прокси для стабильной работы без использования локальных SOCKS-прокси.
 
 <a id="технологии"></a>
 ## Технологии
 
-| Компонент | Назначение |
-|-----------|-----------|
-| Python 3.10+ | Язык разработки |
-| pyTelegramBotAPI (telebot) | Работа с Telegram Bot API |
-| gspread + oauth2client | Интеграция с Google Sheets |
-| requests | Запросы к API перевода |
-| python-dotenv | Загрузка переменных из `.env` |
-| Flask | Легкий веб-сервер для health-check (деплой) |
-| Cloudflare Workers | Прокси для Telegram API |
+* **Язык и веб:** Python 3.10+, Flask (для health-checks)
+* **Работа с Telegram:** pyTelegramBotAPI (telebot)
+* **Интеграция с Google Таблицами:** gspread, oauth2client
+* **Запросы и перевод:** requests (API Google Переводчика)
+* **Инфраструктура:** Cloudflare Workers (прокси для API)
+* **Конфигурация:** python-dotenv
 
 <a id="установка"></a>
 ## Установка
